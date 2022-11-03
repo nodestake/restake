@@ -17,7 +17,7 @@
     "gasPrice": "0.0025uatom"
   },
   {
-    "name": "akash",
+    "name": "akash"
   },
   {
     "name": "chihuahua",
@@ -50,7 +50,7 @@
   },
   {
     "name": "dig",
-    "gasPrice": "0.01udig",
+    "gasPrice": "0.01udig"
   },
   {
     "name": "bitcanna",
@@ -70,7 +70,7 @@
   },
   {
     "name": "cryptoorgchain",
-    "gasPrice": "0.025basecro",
+    "gasPrice": "0.025basecro"
   },
   {
     "name": "evmos",
@@ -90,11 +90,11 @@
     "name": "stargaze"
   },
   {
-    "name": "comdex",
+    "name": "comdex"
   },
   {
     "name": "cheqd",
-    "gasPrice": "25ncheq"
+    "gasPrice": "25ncheq",
     "ownerAddress": "cheqdvaloper10n3fs6fkl4fp9dcsdfl2vl3ay7pk7snnqchj26"
   },
   {
