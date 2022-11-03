@@ -227,7 +227,7 @@
     "ownerAddress": "pasgvaloper19f0w9svr905fhefusyx4z8sf83j6et0gs0nrh0"
   },
   {
-    "name": "stride"
+    "name": "stride",
     "gasPriceStep": {
       "low": 0,
       "average": 0.025,
