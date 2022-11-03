@@ -811,7 +811,7 @@ class App extends React.Component {
           )}
         </div>
         <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-          <a href="https://akash.network" target="_blank" rel="noreferrer" className="col-md-4 mb-0 text-muted">
+          <a href="https://twitter.com/NodeStake_top" target="_blank" rel="noreferrer" className="col-md-4 mb-0 text-muted">
             {this.props.theme === 'light'
               ? (
                 <img src={PoweredByAkash} alt="Powered by REstake" width={200} />
