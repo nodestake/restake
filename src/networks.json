@@ -266,5 +266,14 @@
   {
     "name": "chain4energy",
     "ownerAddress": "c4evaloper146r52hlajqpqduxu69x6jadslvxe2m52q627ay"
+  },
+  {
+    "name": "canto",
+    "ownerAddress": "cantovaloper1q9puynszmmwmsvhsr4g3zgrd6jxt8tks7cuayu",
+    "gasPriceStep": {
+      "low": 500000000000,
+      "average": 1000000000000,
+      "high": 4000000000000
+    }
   }
 ]
