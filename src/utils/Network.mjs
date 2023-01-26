@@ -45,7 +45,7 @@ class Network {
   }
 
   estimateOperatorCount() {
-    if(!this.operatorAddresses) return 0 
+    if(!this.operatorAddresses) return 0
     return Object.keys(this.operatorAddresses).filter(el => this.allowOperator(el)).length
   }
 
@@ -172,7 +172,7 @@ class Network {
       chainName: this.prettyName,
       stakeCurrency: currency,
       bip44: { coinType: this.slip44 },
-      walletUrlForStaking: "https://restake.app/" + this.name,
+      walletUrlForStaking: "https://restake.nodestake.top/" + this.name,
       bech32Config: {
         bech32PrefixAccAddr: this.prefix,
         bech32PrefixAccPub: this.prefix + "pub",
@@ -197,7 +197,7 @@ class Network {
 
   buildKeywords(){
     return _.compact([
-      ...this.chain?.keywords || [], 
+      ...this.chain?.keywords || [],
       this.authzSupport && 'authz',
       this.authzAminoSupport && 'full authz ledger',
     ])
