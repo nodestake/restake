@@ -197,7 +197,7 @@ class Network {
 
   buildKeywords(){
     return _.compact([
-      ...this.chain?.keywords || [],
+      ...this.chain?.keywords || [], 
       this.authzSupport && 'authz',
       this.authzAminoSupport && 'full authz ledger',
     ])
