@@ -814,9 +814,9 @@ class App extends React.Component {
           <a href="https://twitter.com/NodeStake_top" target="_blank" rel="noreferrer" className="col-md-4 mb-0 text-muted">
             {this.props.theme === 'light'
               ? (
-                <img src={TooltipIcon} alt="Twitter" width={0} />
+                <img src={TooltipIcon} alt="Twitter" width={10} />
               ) : (
-                <img src={TooltipIcon} alt="Twitter" width={0} />
+                <img src={TooltipIcon} alt="Twitter" width={10} />
               )}
           </a>
 
