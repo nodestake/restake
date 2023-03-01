@@ -282,6 +282,7 @@
   },
   {
     "name": "planq",
+    "gasPrice": "30000000000aplanq",
     "ownerAddress": "plqvaloper1qt6yf3fvz250uddj04rxglfd40v8nruqzxjl7t"
   },
   {
