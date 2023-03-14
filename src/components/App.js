@@ -75,10 +75,10 @@ class App extends React.Component {
       new KeplrMobileSignerProvider({
         connectModal: {
           open: (uri, callback) => {
-            this.setState({
-              connectWallet: true,
-              qrCodeUri: uri || this.state.qrCodeUri,
-              qrCodeCallback: callback || this.state.qrCodeCallback
+            this.setState({ 
+              connectWallet: true, 
+              qrCodeUri: uri || this.state.qrCodeUri, 
+              qrCodeCallback: callback || this.state.qrCodeCallback 
             })
           },
           close: () => {
@@ -306,7 +306,7 @@ class App extends React.Component {
 
   addressName() {
     if(!this.state.address) return null
-
+    
     if(this.viewingWallet()) return this.state.wallet.name
     return this.currentFavouriteAddress()?.label || this.state.address
   }
@@ -856,12 +856,12 @@ class App extends React.Component {
             this.hideWalletModal()
           }}
         />
-        <ConnectWalletModal
-          show={this.state.connectWallet}
-          signerProvider={this.state.signerProvider}
-          uri={this.state.qrCodeUri}
-          callback={this.state.qrCodeCallback}
-          onClose={() => this.setState({connectWallet: false})}
+        <ConnectWalletModal 
+          show={this.state.connectWallet} 
+          signerProvider={this.state.signerProvider} 
+          uri={this.state.qrCodeUri} 
+          callback={this.state.qrCodeCallback} 
+          onClose={() => this.setState({connectWallet: false})} 
         />
         {this.props.network && (
           <SendModal
