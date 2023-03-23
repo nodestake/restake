@@ -3,7 +3,10 @@
     "name": "osmosis",
     "gasPrice": "0.0025uosmo",
     "default": true,
-    "maxPerDay": 1
+    "maxPerDay": 1,
+    "apiVersions": {
+      "gov": "v1beta1"
+    }
   },
   {
     "name": "juno",
@@ -38,7 +41,7 @@
   },
   {
     "name": "terra",
-    "gasPrice": "5.665uluna"
+    "gasPrice": "28.325uluna"
   },
   {
     "name": "terra2",
@@ -62,11 +65,13 @@
   },
   {
     "name": "kava",
-    "gasPrice": "0.00008ukava"
+    "gasPrice": "0.001ukava"
   },
   {
     "name": "desmos",
-    "gasPrice": "0.001udsm"
+    "gasPrice": "0.001udsm",
+    "authzSupport": true,
+    "authzAminoSupport": true
   },
   {
     "name": "cryptoorgchain",
@@ -77,7 +82,7 @@
     "txTimeout": 120000,
     "ownerAddress": "evmosvaloper1xaxg47uw046uw8vgpp3da367ctw9aguqjuyyyx",
     "maxPerDay": 1,
-    "ledgerSupport": false
+    "authzAminoSupport": false
   },
   {
     "name": "sifchain",
@@ -98,7 +103,8 @@
     "ownerAddress": "cheqdvaloper10n3fs6fkl4fp9dcsdfl2vl3ay7pk7snnqchj26"
   },
   {
-    "name": "umee"
+    "name": "umee",
+    "gasPrice": "0.05uumee"
   },
   {
     "name": "bitsong"
@@ -228,6 +234,8 @@
   },
   {
     "name": "stride",
+    "ownerAddress": "stridevaloper1x2kta40h5rnymtjn6ys7vk2d87xu7y6zfu9j3r",
+    "authzSupport": false,
     "gasPriceStep": {
       "low": 0,
       "average": 0.025,
