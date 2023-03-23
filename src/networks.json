@@ -234,8 +234,6 @@
   },
   {
     "name": "stride",
-    "ownerAddress": "stridevaloper1x2kta40h5rnymtjn6ys7vk2d87xu7y6zfu9j3r",
-    "authzSupport": false,
     "gasPriceStep": {
       "low": 0,
       "average": 0.025,
@@ -305,5 +303,9 @@
     "name": "kyve",
     "ownerAddress": "kyvevaloper19f0w9svr905fhefusyx4z8sf83j6et0g94d872",
     "gasPrice": "0.02ukyve"
+  },
+  {
+    "name": "aura",
+    "ownerAddress": "auravaloper19f0w9svr905fhefusyx4z8sf83j6et0gq0xmpt"
   }
 ]
