@@ -327,6 +327,11 @@
   },
   {
     "name": "migaloo",
-    "ownerAddress": "migaloovaloper19f0w9svr905fhefusyx4z8sf83j6et0glwd8vf"
+    "ownerAddress": "migaloovaloper19f0w9svr905fhefusyx4z8sf83j6et0glwd8vf",
+    "gasPriceStep": {
+      "low": 0.25,
+      "average": 0.5,
+      "high": 0.75
+    }
   }
 ]
