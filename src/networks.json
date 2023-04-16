@@ -17,7 +17,8 @@
   },
   {
     "name": "cosmoshub",
-    "gasPrice": "0.0025uatom"
+    "gasPrice": "0.0025uatom",
+    "ownerAddress": "cosmosvaloper19f0w9svr905fhefusyx4z8sf83j6et0g9l5yhl"
   },
   {
     "name": "akash"
@@ -307,5 +308,21 @@
   {
     "name": "aura",
     "ownerAddress": "auravaloper19f0w9svr905fhefusyx4z8sf83j6et0gq0xmpt"
+  },
+  {
+    "name": "terpnetwork",
+    "ownerAddress": "terpvaloper19f0w9svr905fhefusyx4z8sf83j6et0gk7vf3w"
+  },
+  {
+    "name": "nois",
+    "ownerAddress": "noisvaloper19f0w9svr905fhefusyx4z8sf83j6et0gsr06wq"
+  },
+  {
+    "name": "uptick",
+    "ownerAddress": "uptickvaloper1qt6yf3fvz250uddj04rxglfd40v8nruq47xkt5"
+  },
+  {
+    "name": "omniflixhub",
+    "ownerAddress": "omniflixvaloper1x70l4dcj30nr4x52ph3jmkpgz79qgktxe0w4tl"
   }
 ]
